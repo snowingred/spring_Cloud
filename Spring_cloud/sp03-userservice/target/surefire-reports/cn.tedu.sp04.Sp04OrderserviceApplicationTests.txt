@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cn.tedu.sp04.Sp04OrderserviceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in cn.tedu.sp04.Sp04OrderserviceApplicationTests
+cn.tedu.sp04.Sp04OrderserviceApplicationTests  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+

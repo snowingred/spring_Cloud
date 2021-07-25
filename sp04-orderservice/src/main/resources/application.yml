@@ -1,0 +1,25 @@
+springapplication:
+  name: order-service
+
+server:
+  port: 8201
+
+feign:
+  hystrix:
+    enabled: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
+spring:
+  datasource:
+    url: jdbc:mysql://47.96.95.213:3306/zwxdb?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: Qazwsx~123
